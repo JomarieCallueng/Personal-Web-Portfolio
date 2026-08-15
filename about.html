@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Jomarie Callueng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">JC</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="page-title">About Me</h2>
+
+        <!-- Profile Highlights Header Card -->
+        <div class="about-hero-card">
+            <div class="about-img-wrapper">
+                <img src="images/Aboutme.jpg" alt="Jomarie Callueng" class="about-img">
+                <span class="status-indicator" title="Available for projects"><i class="fa-solid fa-circle"></i> Available</span>
+            </div>
+            <div class="about-hero-text">
+                <span class="role-badge"><i class="fa-solid fa-code"></i> Aspiring Front-End Developer & UI/UX Specialist</span>
+                <h2>Hello! I'm <span class="highlight">Jomarie Callueng</span></h2>
+                <p class="tagline">Passionate IT student focusing on building clean, user-friendly web interfaces, UI/UX design, and technical hardware support.</p>
+                
+                <!-- Quick Stats Grid -->
+                <div class="quick-stats">
+                    <div class="stat-box">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <h4>BSIT</h4>
+                            <p>Student</p>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <h4>Front-End</h4>
+                            <p>& UI/UX Focus</p>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <div>
+                            <h4>Hardware</h4>
+                            <p>& Tech Support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-actions">
+                    <a href="contact.html" class="btn"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+                    <a href="skills.html" class="btn btn-alt"><i class="fa-solid fa-layer-group"></i> View Skills</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Content Tabs -->
+        <div class="about-tabs-container">
+            <div class="about-tabs-header">
+                <button class="about-tab-btn active" data-tab="tab-objective">
+                    <i class="fa-solid fa-bullseye"></i> Career Objective
+                </button>
+                <button class="about-tab-btn" data-tab="tab-values">
+                    <i class="fa-solid fa-gem"></i> Personal Values
+                </button>
+                <button class="about-tab-btn" data-tab="tab-hobbies">
+                    <i class="fa-solid fa-gamepad"></i> Hobbies & Interests
+                </button>
+            </div>
+
+            <div class="about-tab-content">
+                
+                <!-- Tab 1: Objective -->
+                <div class="tab-pane active" id="tab-objective">
+                    <div class="pane-card">
+                        <h3><i class="fa-solid fa-compass"></i> Career Objective</h3>
+                        <p class="lead-text">To secure a challenging position in a reputable organization where I can expand my learnings, knowledge, and practical skills in web development and software engineering.</p>
+                        <div class="objective-goals">
+                            <div class="goal-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Master modern front-end frameworks & design principles</span>
+                            </div>
+                            <div class="goal-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Create seamless, intuitive, and responsive web user interfaces</span>
+                            </div>
+                            <div class="goal-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Contribute effectively to collaborative IT and hardware/software projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Personal Values -->
+                <div class="tab-pane" id="tab-values">
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <h4>Integrity</h4>
+                            <p>Upholding honesty, ethical standards, and accountability in every project and team interaction.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                            <h4>Continuous Learning</h4>
+                            <p>Constantly seeking new knowledge, staying updated with modern web technologies and tech trends.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+                            <h4>Adaptability</h4>
+                            <p>Quickly adjusting to new tools, environments, hardware troubleshooting, and technical challenges.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fa-solid fa-fire"></i></div>
+                            <h4>Dedication</h4>
+                            <p>Committed to delivering clean code, functional designs, and high-quality results consistently.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Hobbies & Interests -->
+                <div class="tab-pane" id="tab-hobbies">
+                    <div class="hobbies-grid">
+                        <div class="hobby-card">
+                            <i class="fa-solid fa-code"></i>
+                            <h4>Coding Side Projects</h4>
+                            <p>Building experimental web pages, practicing CSS layouts, and exploring JavaScript interaction.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h4>Reading Tech Blogs</h4>
+                            <p>Keeping up with modern UI/UX design trends, hardware specs, and software development news.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fa-solid fa-headset"></i>
+                            <h4>Strategic Video Games</h4>
+                            <p>Enhancing critical thinking, problem-solving skills, and rapid decision-making under pressure.</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fa-solid fa-camera"></i>
+                            <h4>Photography</h4>
+                            <p>Capturing visual details, framing perspectives, and enhancing my eye for visual aesthetics.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

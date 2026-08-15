@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Jomarie Callueng</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">JC</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html" class="active">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="page-title">Educational Background</h2>
+
+        <!-- Interactive Filter Tabs -->
+        <div class="edu-filter-tabs">
+            <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-list-check"></i> All</button>
+            <button class="filter-btn" data-filter="formal"><i class="fa-solid fa-graduation-cap"></i> Formal Education</button>
+            <button class="filter-btn" data-filter="training"><i class="fa-solid fa-certificate"></i> Certifications & Workshops</button>
+        </div>
+
+        <div class="timeline">
+            <!-- College -->
+            <div class="timeline-item formal" data-category="formal">
+                <div class="timeline-marker"><i class="fa-solid fa-user-graduate"></i></div>
+                <div class="timeline-content expandable-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="status-badge ongoing"><i class="fa-regular fa-clock"></i> Present / Ongoing</span>
+                            <h3>Bachelor of Science in Information Technology (BSIT)</h3>
+                            <h4 class="school-name"><i class="fa-solid fa-building-columns"></i> UST Angelicum College</h4>
+                        </div>
+                        <div class="expand-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <p class="summary">Focusing on web design, UI/UX, software development, printer troubleshooting, and networking.</p>
+
+                    <!-- Expandable Details -->
+                    <div class="card-details">
+                        <hr class="divider">
+                        <h5><i class="fa-solid fa-star"></i> Key Focus Areas & Skills:</h5>
+                        <div class="skills-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Hardware & Printer Repair</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Database Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SHS -->
+            <div class="timeline-item formal" data-category="formal">
+                <div class="timeline-marker"><i class="fa-solid fa-school"></i></div>
+                <div class="timeline-content expandable-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="status-badge completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            <h3>Senior High School - HUMSS Strand</h3>
+                            <h4 class="school-name"><i class="fa-solid fa-building-columns"></i> Gentle Shepherd Montessori Inc.</h4>
+                        </div>
+                        <div class="expand-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+
+                    <!-- Expandable Details -->
+                    <div class="card-details">
+                        <hr class="divider">
+                        <p class="contact-info"><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> Siling Matanda, Angat-Pandi Road, Pandi, Bulacan</p>
+                        <p class="contact-info"><i class="fa-solid fa-phone"></i> <strong>Contact:</strong> +63 906 432 1322</p>
+                        <p class="contact-info"><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> gentle.shepherd@yahoo.com</p>
+                        <h5><i class="fa-solid fa-star"></i> Key Focus:</h5>
+                        <div class="skills-tags">
+                            <span class="tag">Humanities & Social Sciences</span>
+                            <span class="tag">Communication</span>
+                            <span class="tag">Critical Thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JHS -->
+            <div class="timeline-item formal" data-category="formal">
+                <div class="timeline-marker"><i class="fa-solid fa-book-open"></i></div>
+                <div class="timeline-content expandable-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="status-badge completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            <h3>Junior High School (Grade 8 to 10)</h3>
+                            <h4 class="school-name"><i class="fa-solid fa-building-columns"></i> San Antonio de Padua Catholic School of Batasan Inc.</h4>
+                        </div>
+                        <div class="expand-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+
+                    <!-- Expandable Details -->
+                    <div class="card-details">
+                        <hr class="divider">
+                        <p class="contact-info"><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> Lots 1C and 1D, Block 11, San Mateo-Batasan Road, Batasan Hills, Quezon City</p>
+                        <p class="contact-info"><i class="fa-solid fa-phone"></i> <strong>Contact:</strong> 7117-4923 / 0935-226-8631</p>
+                        <p class="contact-info"><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> sadpcs.batasan@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elementary -->
+            <div class="timeline-item formal" data-category="formal">
+                <div class="timeline-marker"><i class="fa-solid fa-child"></i></div>
+                <div class="timeline-content expandable-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="status-badge completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                            <h3>Elementary & Grade 7 (Grade 1 to 7)</h3>
+                            <h4 class="school-name"><i class="fa-solid fa-building-columns"></i> Caroline Learning Center (CLC)</h4>
+                        </div>
+                        <div class="expand-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+
+                    <!-- Expandable Details -->
+                    <div class="card-details">
+                        <hr class="divider">
+                        <p class="contact-info"><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> Filinvest 1 Road, Quezon City, Metro Manila</p>
+                        <p class="contact-info"><i class="fa-solid fa-phone"></i> <strong>Contact:</strong> (02) 3430 7001</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Certification (Pwede mong papalitan/idagdag) -->
+            <div class="timeline-item training" data-category="training">
+                <div class="timeline-marker"><i class="fa-solid fa-award"></i></div>
+                <div class="timeline-content expandable-card">
+                    <div class="card-header">
+                        <div>
+                            <span class="status-badge certified"><i class="fa-solid fa-certificate"></i> Technical Skill</span>
+                            <h3>Printer Repair & Maintenance Technical Training</h3>
+                            <h4 class="school-name"><i class="fa-solid fa-wrench"></i> Hardware & Support Specialist</h4>
+                        </div>
+                        <div class="expand-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    <!-- Expandable Details -->
+                    <div class="card-details">
+                        <hr class="divider">
+                        <p class="summary">Practical hands-on experience in printer disassembly, cartridge refilling, head cleaning, and mechanical troubleshooting.</p>
+                        <div class="skills-tags">
+                            <span class="tag">Printer Hardware</span>
+                            <span class="tag">Troubleshooting</span>
+                            <span class="tag">Maintenance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
